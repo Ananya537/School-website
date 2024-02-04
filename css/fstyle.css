@@ -1,0 +1,266 @@
+.head{
+    font-size: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+*{
+    font-family: 'Open Sans',Helvetica,arial,sans-serif;
+}
+
+hr {
+    clear: both;
+    height: 0;
+    margin: 1.25rem 1rem 1.1875rem;
+    border: solid #ddd;
+    border-width: 2px 0 0;
+    width: 75%;
+}
+
+td{
+    padding: 15px;
+}
+
+/* ---------------------------------------outdoor-------------------------------------- */
+
+.ot_table{
+    align-content: center;
+    margin-left: 3rem;
+}
+
+
+.ot_container{
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ot_box{
+    position: relative;
+    width: 280px;
+    height: 330px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+}
+
+.ot_box .ot_imgbx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ot_box .ot_imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.ot_box:hover .ot_imgbx img{
+    opacity: 0;
+}
+
+.ot_box .ot_content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: #F5EEE6;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.ot_box:hover .ot_content{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.ot_box .ot_content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ot_box .ot_content p{
+    margin: 40px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: left;
+}
+
+.ot_box:hover .ot_content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+/* --------------------------------------------something--------------------------------- */
+
+
+#something{
+    background-color: #EBE3D5;
+    margin-left: 5rem;
+}
+
+.row{
+    justify-content:center;
+}
+
+.smtg_card{
+    position: relative;
+    width: 310px;
+    height: 210px;
+    background: #262626;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+input, .smtg_toggle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    outline: none;
+    z-index: 10;
+}
+
+input{
+    opacity: 0;
+}
+
+.smtg_toggle{
+    pointer-events: none;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.5s;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    box-shadow: 0 0 0 0px #F5EEE6;
+}
+
+input:checked ~ .smtg_toggle{
+    box-shadow: 0 0 0 500px #F5EEE6;
+    transform: rotate(225deg);
+}
+
+.smtg_imgbx, .smtg_details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.smtg_details{
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 11;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: 0;
+    font-family: 'Open Sans',Helvetica,arial,sans-serif;
+    font-size: 12px;
+}
+
+input:checked ~ .smtg_details{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.smtg_details h2{
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.smtg_details p{
+    margin: 0;
+    padding: 0;
+    color: #111;
+}
+
+
+/* -------------------------------------------labs--------------------------- */
+#lab_container{
+    background-color: #EBE3D5;
+
+}
+
+.lab_container{
+    position: relative;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.lab_container .lab_card{
+    position: relative;
+    max-width: 295px;
+    height: 210px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.lab_container .lab_card:hover{
+    height: 420px;
+}
+
+.lab_container .lab_card .lab_imgbx{
+    position: relative;
+    width: 255px;
+    height: 255px;
+    top: -50px;
+    left: 0px;
+    z-index: 1;
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
+}
+
+.lab_container .lab_card .lab_imgbx .lab_img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.lab_container .lab_card .lab_content{
+    position: relative;
+    /* margin-top: -40px; */
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.lab_container .lab_card:hover .lab_content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -60px;
+    transition-delay: 0.3s;
+}

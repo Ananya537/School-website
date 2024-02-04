@@ -1,0 +1,18 @@
+.footer-class {
+    font-family: 'Lora', Helvetica,arial,sans-serif;
+    color: #280274;
+        
+}
+
+
+a {
+    color:black;
+    font-size: 17px;
+}
+
+a:hover{
+    color: brown;
+}
+
+
+

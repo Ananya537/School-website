@@ -1,0 +1,93 @@
+
+/* -------------------Navbar container-------------------------- */
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+/* -------------------------------------------------------------- */
+
+
+
+/* -------Chnage in  navbar color on size less than 991px-------- */
+@media (max-width: 991px) {
+    .navbar {
+        background-color: rgba(43, 39, 39, 0.5);
+        transition: background-color 0.3s ease;
+    }
+
+    nav ul li:hover{
+        width:20%;
+    } 
+}
+/* -------------------------------------------------------------- */
+
+
+
+/* ---------------------Navbar elements-------------------------- */
+.navbar-nav a {
+    font-weight: 1000;
+    font-size: 1.022rem;
+}
+
+#main-navigation-bar img {
+    padding-left: 10px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.nav-link-black {
+    color: black !important;
+}
+
+.nav-link-black:hover {
+    color: rgb(104, 58, 58) !important;
+}
+
+.dropdown-menu-black{
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    color: rgb(221, 154, 46) ; 
+}
+
+.banner-image-sizeChange{
+    margin-top: 7rem;
+}
+
+nav ul li{
+    font-weight: bold;
+    list-style: none;
+    padding: 0 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after{
+    width:100%;
+}
+
+.dropdown-menu > li > a {
+    border-radius: 10px;
+    transition: background-color 0.3s; 
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: white;
+}
+
+/* -------------------------------------------------------------- */
+
+
+
