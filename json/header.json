@@ -1,0 +1,38 @@
+{  
+  "en": [
+          {
+            "navbar_home": "Home",
+            "navbar_about": "About",
+            "navbar_academics":"Academics",
+            "navbar_admission":"Admissions",
+            "navbar_facilities":"Facilities",
+            "navbar_depart":"Departments",
+            "navbar_gallery":"Gallery",
+            "navbar_translate_button":"ಕನ್ನಡ",
+            "dropdown-primary": "Primary School",
+            "dropdown-high" : "High School",
+            "dropdown-pu" : "Pre-University"
+          }
+        ],
+
+  "kn": [
+          {
+            "navbar_home": "ಮುಖಪುಟ",
+            "navbar_about": "ನಮ್ಮ ಬಗ್ಗೆ",
+            "navbar_academics":"ಶೈಕ್ಷಣಿಕ",
+            "navbar_admission":"ಪ್ರವೇಶಗಳು",
+            "navbar_facilities":"ಸೌಲಭ್ಯಗಳು",
+            "navbar_depart":"ಇಲಾಖೆಗಳು",
+            "navbar_gallery":"ಗ್ಯಾಲರಿ",
+            "navbar_translate_button":"English",
+            "dropdown-primary": "ಪ್ರಾಥಮಿಕ ಶಾಲೆ",
+            "dropdown-high" : "ಪ್ರೌಢಶಾಲೆ",
+            "dropdown-pu" : "ಪಿಯು ಕಾಲೇಜು"
+          }
+        ]
+}
+
+
+
+
+

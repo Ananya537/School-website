@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!----------------  Required meta tags --------------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <link rel="icon" href="images/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&family=Abril+Fatface&family=Merriweather&family=Mukta&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Javascript Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!----------------------- Font Awesome ----------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Regular CSS Sylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/script.js"></script>
+
+    <style>
+
+        .attractive-div {
+            display: flex;
+            background-color: #FFE5CA; 
+            padding: 20px;
+            align-items: center; 
+            justify-content: center; 
+            text-align: center; 
+            
+        }
+
+        .attractive-div  {
+            max-width: 100%; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        .huge-header {
+            
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            text-align: center;
+            padding: 5px;
+        }
+
+            .card{
+        position: relative;
+        width: 350px;
+        height: 190px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+        transition: 0.5s;
+    }
+
+        .card:hover{
+            height: 450px;
+        }
+
+        .imgBx{
+            position: absolute;
+            left: 50%;
+            top: -50px;
+            transform: translateX(-50%);
+            width: 150px;
+            height: 150px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 15px 15px rgba(0,0,0,0.35);
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .card:hover .imgBx{
+            width: 250px;
+            height: 250px;
+        }
+
+        .imgBx .pimg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card .pcontent{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            overflow: hidden;
+        }
+
+        .card .pcontent .pdetails{
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+            transition: 0.5s;
+            transform: translateY(125px);
+        }
+
+        .card:hover .pcontent .pdetails{
+            transform: translateY(0px);
+        }
+
+        .card .pcontent .pdetails h1{
+            font-size: 1.25em;
+            font-weight: 600;
+            color: #111;
+            line-height: 1.2em;
+        }
+
+        .card .pcontent .pdetails h1 .pspan{
+            font-size: 0.75em;
+            font-weight: 500;
+            opacity: 0.5;
+        }
+
+        .card .pcontent .pdetails .pdata{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .card .pcontent .pdetails .pdata h3{
+            font-size: 0.85em;
+            color: #111;
+            line-height: 1.2em;
+            font-weight: 600;
+        }
+
+        .card .pcontent .pdetails .pdata h3 .pspan{
+            font-size: 0.85em;
+            font-weight: 400;
+            opacity: 0.5;
+        }
+
+        hr {
+            clear: both;
+            height: 0;
+            margin: 1.25rem 1rem 1.1875rem;
+            border: solid #ddd;
+            border-width: 2px 0 0;
+        }
+
+        .b-header {
+            font-family: 'Lora',Helvetica,arial,serif;
+            color: #193059;
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <section class="white-background">
+        <div id="header-container"></div>
+        <img class="banner-image">
+    </section>
+
+        
+        <!---------------------------------------- Banner  --------------------------------------------->
+
+        <div class="container attractive-div">
+            <div class="row">
+              <!-- Image on the left -->
+              <div class="col-md-6">
+                <img src="../images/primary-dpt.jpg" alt="Image" class="img-fluid" style="border-radius: 8px;">
+              </div>
+              
+              <!-- header on the right -->
+              <div class="col-md-6 huge-header">
+                <h1 style="font-size: 3em; font-weight: bold;" class="b-header" id="header">The Government High School Department</h1>
+              </div>
+            </div>
+        </div>
+
+
+        <!-------------------------------------------------- INTRO ------------------------------------------------>
+        <div class="p-5">
+            <h1 class="text-center b-header" id="about-header">About the Department</h1>
+            <hr style="border-color: #be202e;">
+            <p id="about-content" class="lead" style="color: black;" data-kn=""></p> 
+        </div><br><br><br><br>
+
+
+        <!---------------------------------------------- Head master ------------------------------------>
+        <div class="container d-flex justify-content-center mt-5">
+
+            <div class="card">
+                <div class="imgBx">
+                    <img class="pimg" src="../images/hs_head.jpg">
+                </div>
+                <div class="pcontent">
+                    <div class="pdetails">
+                        <h1 class="mt-5" id="faculty-1">Kanataraju B G<br></h1><span class="pspan" id="faculty-1-pos">In-Charge Head Master</span>
+                        <br>
+                        <div class="pdata">
+                            <h3>M.Sc, M.Ed, KES<br><span class="pspan">Education</span></h3>
+                            <h3>17 Years<br><span class="pspan">Experience</span></h3>
+                            <h3>15-06-2007<br><span class="pspan">Joining Date</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><br>
+
+
+        <!---------------------------------------------- Faculties------------------------------------>
+        <div class="container mt-5 d-flex justify-content-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4 d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/suguna.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-2">Suguna SM<br></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>M.Sc, B.Ed <br>B.Sc, B.Ed<br><span class="pspan">Education</span></h3>
+                                    <h3>27 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>12-07-1997<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/uma.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-3">Uma Dindoor<br></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>MA, B.Ed <br><span class="pspan">Education</span></h3>
+                                    <h3>17 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>30-07-2007<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/sreedevi.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-4">Shreedevi G<br></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>B.Sc, B.Ed<br><span class="pspan">Education</span></h3>
+                                    <h3>16 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>09-07-2008<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/manjula.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-5">Manjula Bai S<br><span class="pspan"><span class="pspan"><span class="pspan"></span></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>MA, B.Ed<br><span class="pspan">Education</span></h3>
+                                    <h3>39 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>03-06-1985<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/siddangangamma.jpg">
+                        </div>
+                        <div class="pcontent" >
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-6">Siddangangamma</h1>
+                                
+                                <div class="pdata">
+                                    <h3>MA, B.Ed<br><span class="pspan">Education</span></h3>
+                                    <h3>39 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>14-02-1985<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/vedavati.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-7">Vedavati Bhat<br></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>M.P.Ed<br><span class="pspan">Education</span></h3>
+                                    <h3>30 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>25-07-1994<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/katyayani.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-8">Katyayani. S <br></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>PUC<br><span class="pspan">Education</span></h3>
+                                    <h3>7 Years<br><span class="pspan">Experience</span></h3>
+                                    <h3>21-10-2017<br><span class="pspan">Joining Date</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-5 mb-4  d-flex justify-content-center" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="pimg" src="../images/balaiah.jpg">
+                        </div>
+                        <div class="pcontent">
+                            <div class="pdetails">
+                                <h1 class="mt-5" id="faculty-9">Mr. Balaiah D<br></h1>
+                                <br>
+                                <div class="pdata">
+                                    <h3>Swimming coach<br></h3>
+                                    <h3>National Swimmer<br></h3>
+                                    <h3>24 Years<br><span class="pspan">Experience</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+
+    <!-- CDN Link to SB Forms Scripts -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var headerContainer = document.getElementById('header-container');
+
+        // Load the header HTML using fetch or another method
+        fetch('../include/header.html')
+            .then(response => response.text())
+            .then(html => {
+                headerContainer.innerHTML = html;
+
+                // Load the script for the header behavior
+                
+                var headerScript = document.createElement('script');
+                headerScript.src = '../js/header.js';
+                headerScript.onload = function () {
+                // Call the function from the external script
+                if (typeof initializeHeader === 'function') {
+                    initializeHeader();
+                } 
+                else {
+                    console.error('initializeHeader function is not defined.');
+                }
+            };
+            headerContainer.appendChild(headerScript);
+            window.currentPage = 'departments_high';
+            toggleLanguage(currentPage)
+            });
+        });
+
+        
+    </script>
+ 
+
+</body>
+</html>

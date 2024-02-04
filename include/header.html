@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!---------------------------------HEAD SECTION------------------------------------------->
+<head>
+
+  <!----------------  Required meta tags --------------------------->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<!--------------------------------------------------------------------------------------->
+
+
+
+<!-------------------------------------BODY SECTION-------------------------------------->
+<body>
+
+  <!----------------------Header----------------------->
+  <header>
+     
+    <section id="main-navigation-bar">
+      <nav class="navbar fixed-top navbar-expand-lg">
+
+        <!---------------Header Container-------------->
+        <div class="container-fluid">
+
+          <img src="./images/logo.png" height="66px" alt="logo">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            
+
+              <!-- HOME -->
+              <li class="nav-item me-2">
+                <a class="nav-link active text-white" 
+                  href="/index.html" 
+                  id="navbar_home">
+                </a>
+              </li>
+
+
+              <!-- ABOUT -->
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" 
+                  href="/pages/about.html" 
+                  id="navbar_about">
+                </a>
+
+
+              <!-- ACADEMICS -->
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" 
+                 href="/pages/academics.html"
+                  id="navbar_academics">
+                </a>
+              </li>
+
+
+              <!-- ADMISSION -->
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" 
+                  href="/pages/admissions.html" 
+                  id="navbar_admission">
+                </a>
+              </li>
+
+
+              <!-- FACILITIES -->
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" 
+                  href="/pages/facilities.html" 
+                  id="navbar_facilities">
+                </a>
+              </li>
+
+
+              <!-- DEPARTMENTS -->
+              <li class="nav-item dropdown mx-1">
+                <a class="nav-link text-white dropdown-toggle"
+                  data-bs-toggle="dropdown" 
+                  aria-expanded="true"
+                  id="navbar_depart">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="dropdown-primary" href="/pages/departments_primary.html"></a></li>
+                  <li><a class="dropdown-item" id="dropdown-high" href="/pages/departments_high.html">High School</a></li>
+                  <li><a class="dropdown-item" id="dropdown-pu" href="/pages/departments_pu.html">Pre-University</a></li>
+                </ul>
+              </li>
+
+
+              <!-- GALLERY -->
+              <li class="nav-item ms-1">
+                <a class="nav-link text-white"
+                href="/pages/gallery.html" 
+                  id="navbar_gallery">
+                </a>
+              </li>
+
+            </ul>
+
+
+            <!-- LANGUAGE TRANSLATION BUTTON -->
+            <div>
+                <button class="btn btn-warning" 
+                  id="navbar_translate_button" 
+                  onclick="toggleLanguage(window.currentPage)">ಕನ್ನಡ
+                </button>
+            </div>
+    
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+</body>
+<!--------------------------------------------------------------------------------------->
+
+
+</html>

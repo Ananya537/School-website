@@ -1,0 +1,153 @@
+
+
+{  
+    "en": [
+            {
+                
+                "head_vm" : "VISION & MISSION",
+                "head_cp" : "CHAIR PERSON",
+                "head_cdc" : "COLLEGE DEVELOPMENT COMMITTIEE",
+                "head_prin" : "PRINCIPALS",
+                "head_bom" : "BOARD OF MEMBERS",
+
+                "head_vm1" : "VISION & MISSION",
+                "head_cp1" : "CHAIR PERSON",
+                "head_cdc1" : "COLLEGE DEVELOPMENT COMMITTIEE",
+                "head_prin1" : "PRINCIPALS",
+                "head_bom1" : "BOARD OF MEMBERS",
+
+                "ab_vhead" : "VISION",
+                "ab_mhead" : "MISSION",
+                "ab_vision" : "To provide quality education to students coming from all strata of the society. To shape the life of each student for a better future.",
+                "ab_mission" : "To create technologically upgraded institution which caters to the educational standards of today’s times.",
+
+                "ab_mlaTitle" : "MLA, Yelahanka | Member, TTD Board | Former Chairman, Bangalore Development Authority (BDA)",
+                "ab_mlaContent1" : "Singanayakanahalli Ramaiah Vishwanath is an Indian Politician who is current MLA from Yelahanka constituency since 25 May 2008. He is former Chairman of Bangalore Development Authority and presently Member of Tirumala Tirupati Devasthanams (TTD) Board.",
+                "ab_mlaContent2" : "He is a social worker and the chairperson of Government school and PU college of Rajanukunte. He is the founder of Vishwa Vani Foundation.",
+
+                "ab_pName" : "Shri S R Vishwanath",
+                "ab_pDesignation" : "MLA, Yelahanka",
+                "ab_vpName" : "R M Somashekar Reddy",
+                "ab_vpDesignation" : "Businessman",
+                "ab_tName" : "RC Rajendra Kumar",
+                "ab_tDesignation" : "B.Pharm, Social Worker",
+
+                "ab_ps_princiName" : "Sreenivasa G",
+                "ab_ps_Designation" : "Principal of Primary School",
+                "ab_ps_education" : "CPEd, PUC",
+                "ab_ps_experience" : "29 Years",
+                "ab_ps_joinDate" : "26/07/1994",
+
+                "ab_hs_princiName" : "Kantaruju B G",
+                "ab_hs_Designation" : "Principal of High School",
+                "ab_hs_education" : "MSc, M.Ed, KES",
+                "ab_hs_experience" : "17 Years",
+                "ab_hs_joinDate" : "15/06/2007",
+
+                "ab_puc_princiName" : "V R Manjula",
+                "ab_puc_Designation" : "Principal of PU College",
+                "ab_puc_education" : "M.A , M.Phil",
+                "ab_puc_experience" : "17 Years",
+                "ab_puc_joinDate" : "05/11/2007",
+
+                "ab_bomName1" : "Shri Shivanna N C",
+                "ab_bomDesignation1" : "MA, M.Phil | Rtd.Principal",
+                "ab_bomName2" : "Shri.M MohanKumar",
+                "ab_bomDesignation2" : "Dip civil",
+                "ab_bomName3" : "Shri M Thimma Reddy",
+                "ab_bomDesignation3" : "BSC, B.Ed"
+            }
+        ],
+
+    "enClass" : [
+                {
+                    
+                    "education" : "Education",
+                    "experience" : "Experience",
+                    "join-date" : "Joining Date"
+                }
+            ],
+
+    "kn": [
+        {
+            
+            "head_vm" : "ದೃಷ್ಟಿ ಮತ್ತು ಮಿಷನ್",
+            "head_cp" : "ಅಧ್ಯಕ್ಷರು",
+            "head_cdc" : "ಕಾಲೇಜು ಅಭಿವೃದ್ಧಿ ಮಂಡಳಿ",
+            "head_prin" : "ಪ್ರಾಂಶುಪಾಲರು",
+            "head_bom" : "ನಿರ್ದೇಶಕರ ಮಂಡಳಿ",
+
+            "head_vm1" : "ದೃಷ್ಟಿ ಮತ್ತು ಮಿಷನ್",
+            "head_cp1" : "ಅಧ್ಯಕ್ಷರು",
+            "head_cdc1" : "ಕಾಲೇಜು ಅಭಿವೃದ್ಧಿ ಮಂಡಳಿ",
+            "head_prin1" : "ಪ್ರಾಂಶುಪಾಲರು",
+            "head_bom1" : "ನಿರ್ದೇಶಕರ ಮಂಡಳಿ",
+
+            "ab_vhead" : "ದೃಷ್ಟಿ",
+            "ab_mhead" : "ಮಿಷನ್",
+            "ab_vision" : "ಸಮಾಜದ ಎಲ್ಲಾ ಸ್ತರಗಳಿಂದ ಬರುವ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಗುಣಮಟ್ಟದ ಶಿಕ್ಷಣವನ್ನು ಒದಗಿಸುವುದು. ಉತ್ತಮ ಭವಿಷ್ಯಕ್ಕಾಗಿ ಪ್ರತಿಯೊಬ್ಬ ವಿದ್ಯಾರ್ಥಿಯ ಜೀವನವನ್ನು ರೂಪಿಸಲು.",
+            "ab_mission" : "ಇಂದಿನ ಕಾಲದ ಶೈಕ್ಷಣಿಕ ಗುಣಮಟ್ಟವನ್ನು ಪೂರೈಸುವ ತಾಂತ್ರಿಕವಾಗಿ ಉನ್ನತೀಕರಿಸಿದ ಸಂಸ್ಥೆಯನ್ನು ರಚಿಸಲು.",
+
+            "ab_mlaTitle" : "ಶಾಸಕ, ಯಲಹಂಕ | ಸದಸ್ಯ, ಟಿಟಿಡಿ ಮಂಡಳಿ | ಮಾಜಿ ಅಧ್ಯಕ್ಷರು, ಬೆಂಗಳೂರು ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ (ಬಿಡಿಎ)",
+            "ab_mlaContent1" : "ಸಿಂಗನಾಯಕನಹಳ್ಳಿ ರಾಮಯ್ಯ ವಿಶ್ವನಾಥ್ ಒಬ್ಬ ಭಾರತೀಯ ರಾಜಕಾರಣಿಯಾಗಿದ್ದು, ಅವರು 25 ಮೇ 2008 ರಿಂದ ಯಲಹಂಕ ಕ್ಷೇತ್ರದ ಹಾಲಿ ಶಾಸಕರಾಗಿದ್ದಾರೆ. ಅವರು ಬೆಂಗಳೂರು ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರದ ಮಾಜಿ ಅಧ್ಯಕ್ಷರು ಮತ್ತು ಪ್ರಸ್ತುತ ತಿರುಮಲ ತಿರುಪತಿ ದೇವಸ್ಥಾನಮ್ಸ್ (ಟಿಟಿಡಿ) ಮಂಡಳಿಯ ಸದಸ್ಯರಾಗಿದ್ದಾರೆ.",
+            "ab_mlaContent2" : "ಇವರು ರಾಜಾನುಕುಂಟೆಯ ಸರಕಾರಿ ಶಾಲೆ ಮತ್ತು ಪಿಯು ಕಾಲೇಜಿನ ಅಧ್ಯಕ್ಷರಾಗಿ ಸಮಾಜ ಸೇವಕರಾಗಿದ್ದಾರೆ. ಅವರು ವಿಶ್ವ ವಾಣಿ ಫೌಂಡೇಶನ್‌ನ ಸಂಸ್ಥಾಪಕರು.",
+
+            "ab_pName" : "ಶ್ರೀ ಎಸ್ ಆರ್ ವಿಶ್ವನಾಥ್",
+            "ab_pDesignation" : "ಶಾಸಕ, ಯಲಹಂಕ",
+            "ab_vpName" : "ಆರ್ ಎಂ ಸೋಮಶೇಖರ್ ರೆಡ್ಡಿ",
+            "ab_vpDesignation" : "ಉದ್ಯಮಿ",
+            "ab_tName" : "ಆರ್ಸಿ ರಾಜೇಂದ್ರ ಕುಮಾರ್",
+            "ab_tDesignation" : "ಬಿ.ಫಾರಂ, ಸಮಾಜ ಸೇವಕ",
+
+            "ab_ps_princiName" : "ಶ್ರೀನಿವಾಸ ಜಿ",
+            "ab_ps_Designation" : "ಪ್ರಾಥಮಿಕ ಶಾಲೆಯ ಪ್ರಾಂಶುಪಾಲರು",
+            "ab_ps_education" : "CPEd, PUC",
+            "ab_ps_experience" : "29 ವರ್ಷಗಳು",
+            "ab_ps_joinDate" : "26/07/1994",
+
+            "ab_hs_princiName" : "ಕಾಂತರಾಜು ಬಿ ಜಿ",
+            "ab_hs_Designation" : "ಪ್ರೌಢಶಾಲೆಯ ಪ್ರಾಂಶುಪಾಲರು",
+            "ab_hs_education" : "MSc, M.Ed, KES",
+            "ab_hs_experience" : "17 ವರ್ಷಗಳು",
+            "ab_hs_joinDate" : "15/06/2007",
+
+            "ab_puc_princiName" : "ವಿ ಆರ್ ಮಂಜುಳಾ",
+            "ab_puc_Designation" : "ಪಿಯು ಕಾಲೇಜಿನ ಪ್ರಾಂಶುಪಾಲರು",
+            "ab_puc_education" : "M.A , M.Phil",
+            "ab_puc_experience" : "17 ವರ್ಷಗಳು",
+            "ab_puc_joinDate" : "05/11/2007",
+
+            "ab_bomName1" : "ಶ್ರೀ ಶಿವಣ್ಣ ನ್ ಸಿ",
+            "ab_bomDesignation1" : "MA, M.Phil | Rtd.Principal",
+            "ab_bomName2" : "ಶ್ರೀ ಎಂ ಮೋಹನ್ ಕುಮಾರ್",
+            "ab_bomDesignation2" : "Dip civil",
+            "ab_bomName3" : "ಶ್ರೀ ಎಂ ತಿಮ್ಮ ರೆಡ್ಡಿ",
+            "ab_bomDesignation3" : "BSC, B.Ed"
+        }
+    ],
+
+    "knClass" : [
+                    {
+                        "head_vm" : "ದೃಷ್ಟಿ ಮತ್ತು ಮಿಷನ್",
+                        "head_cp" : "ಅಧ್ಯಕ್ಷರು",
+                        "head_cdc" : "ಕಾಲೇಜು ಅಭಿವೃದ್ಧಿ ಮಂಡಳಿ",
+                        "head_prin" : "ಪ್ರಾಂಶುಪಾಲರು",
+                        "head_bom" : "ನಿರ್ದೇಶಕರ ಮಂಡಳಿ",
+                        "education": "ಶಿಕ್ಷಣ",
+                        "experience": "ಅನುಭವ",
+                        "join-date": "ಸೇರಿದ ದಿನಾಂಕ"
+                    }
+                ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+
+{  
+"en": [
+        {
+            "facility_0" : "FACILITIES",
+            "facility_1a": "Auditorium",
+            "facility_1" : "Auditorium serves as a versatile venue for various events, including assemblies, performances, and presentations, fostering a sense of community and providing a platform for students to showcase their talents and achievements.",
+            "facility_2a": "Smart Class",
+            "facility_2" : "The smart class integrates technology into the learning environment, enhancing education through interactive digital content, multimedia presentations, and collaborative tools to create an engaging and modern educational experience for students",
+            "facility_3a": "Food",
+            "facility_3" : "The provision of free food plays a crucial role in addressing nutritional needs, removing barriers to education, and fostering a more inclusive and supportive environment for students.",
+            "facility_4a": "Solar Panels",
+            "facility_4" : "The installation of solar panels at the government school demonstrates a commitment to sustainability, harnessing renewable energy to reduce environmental impact and serving as an educational example of eco-friendly practices for students.",
+            "lab_0" : "LABS",
+            "lab_1a": "Computer",
+            "lab_1" : "The Computer lab serves as a technological hub, empowering students with essential digital skills and fostering a dynamic learning environment that aligns with the demands of the modern world.",
+            "lab_2a": "Physics",
+            "lab_2" : "The physics lab facilitates hands-on experimentation, allowing students to explore and apply theoretical concepts, fostering a deeper understanding of physics principles through practical learning experiences.",
+            "lab_3a": "Chemistry",
+            "lab_3" : "the chemistry lab provides a controlled setting for students to conduct experiments, encouraging the application of theoretical knowledge, hands-on learning, and fostering a keen interest in the intricacies of chemical processes.",
+            "lab_4a": "Biology",
+            "lab_4" : "The biology lab serves as a vital space for students to delve into the wonders of life sciences, conducting experiments and dissections that enhance their understanding of biological concepts and cultivate a passion for the natural world.",
+            "od_0" : "OUTDOOR",
+            "od_1a": "Open ground",
+            "od_1" : "Open ground offers a versatile space for various outdoor activities, encouraging students to engage in sports, physical exercises, and recreational pursuits, fostering a healthy and active school environment.",
+            "od_2a": "Badminton court",
+            "od_2" : "Badminton court serves as a platform for fostering sportsmanship, teamwork, and physical activity among students, contributing to their holistic development.",
+            "od_3a": "Swimming pool",
+            "od_3" : "Swimming pool provides students with a valuable opportunity to learn essential life skills and promotes physical fitness and recreation within the educational environment.",
+            "od_4a": "Park",
+            "od_4" : "Park provides a serene and green space where students can unwind, connect with nature, and enjoy moments of relaxation, contributing to a well-rounded educational experience."
+        }
+      ],
+
+    "kn": [
+        {
+            "facility_0" : "ಸೌಲಭ್ಯಗಳು",
+            "facility_1a": "ಸಭಾಂಗಣ",
+            "facility_1" : "ಸಭಾಂಗಣವು, ಪ್ರದರ್ಶನಗಳು ಮತ್ತು ಪ್ರಸ್ತುತಿಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ವಿವಿಧ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ ಬಹುಮುಖ ಸ್ಥಳವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಸಮುದಾಯದ ಪ್ರಜ್ಞೆಯನ್ನು ಬೆಳೆಸುತ್ತದೆ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಅವರ ಪ್ರತಿಭೆ ಮತ್ತು ಸಾಧನೆಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ವೇದಿಕೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+            "facility_2a": "ಸ್ಮಾರ್ಟ್ ಕ್ಲಾಸ್",
+            "facility_2" : "ಸರ್ಕಾರಿ ಶಾಲೆಯಲ್ಲಿನ ಸ್ಮಾರ್ಟ್ ಕ್ಲಾಸ್ ತಂತ್ರಜ್ಞಾನವನ್ನು ಕಲಿಕೆಯ ವಾತಾವರಣಕ್ಕೆ ಸಂಯೋಜಿಸುತ್ತದೆ, ಸಂವಾದಾತ್ಮಕ ಡಿಜಿಟಲ್ ವಿಷಯ, ಮಲ್ಟಿಮೀಡಿಯಾ ಪ್ರಸ್ತುತಿಗಳು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಆಕರ್ಷಕ ಮತ್ತು ಆಧುನಿಕ ಶೈಕ್ಷಣಿಕ ಅನುಭವವನ್ನು ರಚಿಸಲು ಸಹಕಾರಿ ಸಾಧನಗಳ ಮೂಲಕ ಶಿಕ್ಷಣವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+            "facility_3a": "ಆಹಾರ",
+            "facility_3" : "ಉಚಿತ ಆಹಾರವನ್ನು ಒದಗಿಸುವುದು ಪೌಷ್ಟಿಕಾಂಶದ ಅಗತ್ಯತೆಗಳನ್ನು ಪರಿಹರಿಸುವಲ್ಲಿ ನಿರ್ಣಾಯಕ ಪಾತ್ರವನ್ನು ವಹಿಸುತ್ತದೆ, ಶಿಕ್ಷಣದ ಅಡೆತಡೆಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಹೆಚ್ಚು ಅಂತರ್ಗತ ಮತ್ತು ಬೆಂಬಲ ವಾತಾವರಣವನ್ನು ಬೆಳೆಸುತ್ತದೆ.",
+            "facility_4a": "ಸೌರ ಫಲಕ",
+            "facility_4" : "ಸೌರ ಫಲಕಗಳ ಸ್ಥಾಪನೆಯು ಸುಸ್ಥಿರತೆಯ ಬದ್ಧತೆಯನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ, ಪರಿಸರ ಪರಿಣಾಮವನ್ನು ಕಡಿಮೆ ಮಾಡಲು ನವೀಕರಿಸಬಹುದಾದ ಶಕ್ತಿಯನ್ನು ಬಳಸಿಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪರಿಸರ ಸ್ನೇಹಿ ಅಭ್ಯಾಸಗಳ ಶೈಕ್ಷಣಿಕ ಉದಾಹರಣೆಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "lab_0" : "ಲ್ಯಾಬ್ಸ್",
+            "lab_1a" : "ಗಣಕ ಯಂತ್ರ",
+            "lab_1" : "ಗಣಕ ಯಂತ್ರ ಪ್ರಯೋಗಾಲಯವು ತಾಂತ್ರಿಕ ಕೇಂದ್ರವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಅಗತ್ಯ ಡಿಜಿಟಲ್ ಕೌಶಲ್ಯಗಳೊಂದಿಗೆ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಸಬಲಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಆಧುನಿಕ ಪ್ರಪಂಚದ ಬೇಡಿಕೆಗಳೊಂದಿಗೆ ಹೊಂದಿಕೊಳ್ಳುವ ಕ್ರಿಯಾತ್ಮಕ ಕಲಿಕೆಯ ವಾತಾವರಣವನ್ನು ಪೋಷಿಸುತ್ತದೆ.",
+            "lab_2a" : "ಭೌತಶಾಸ್ತ್ರ",
+            "lab_2" : "ಭೌತಶಾಸ್ತ್ರ ಪ್ರಯೋಗಾಲಯವು ಪ್ರಾಯೋಗಿಕ ಕಲಿಕೆಯ ಅನುಭವಗಳ ಮೂಲಕ ಭೌತಶಾಸ್ತ್ರದ ತತ್ವಗಳ ಆಳವಾದ ತಿಳುವಳಿಕೆಯನ್ನು ಉತ್ತೇಜಿಸುವ ಮೂಲಕ ಸೈದ್ಧಾಂತಿಕ ಪರಿಕಲ್ಪನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಮತ್ತು ಅನ್ವಯಿಸಲು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ.",
+            "lab_3a" : "ರಸಾಯನಶಾಸ್ತ್ರ",
+            "lab_3" : "ರಸಾಯನಶಾಸ್ತ್ರ ಪ್ರಯೋಗಾಲಯವು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರಯೋಗಗಳನ್ನು ನಡೆಸಲು ನಿಯಂತ್ರಿತ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ, ಸೈದ್ಧಾಂತಿಕ ಜ್ಞಾನದ ಅನ್ವಯವನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ, ಕಲಿಕೆಯ ಮೇಲೆ ಪ್ರಾಯೋಗಿಕವಾಗಿ ಮತ್ತು ರಾಸಾಯನಿಕ ಪ್ರಕ್ರಿಯೆಗಳ ಜಟಿಲತೆಗಳಲ್ಲಿ ತೀವ್ರ ಆಸಕ್ತಿಯನ್ನು ಬೆಳೆಸುತ್ತದೆ.",
+            "lab_4a" : "ಜೀವಶಾಸ್ತ್ರ",
+            "lab_4" : "ಜೀವಶಾಸ್ತ್ರದ ಪ್ರಯೋಗಾಲಯವು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಜೀವ ವಿಜ್ಞಾನದ ಅದ್ಭುತಗಳನ್ನು ಅಧ್ಯಯನ ಮಾಡಲು ಪ್ರಮುಖ ಸ್ಥಳವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ನೈಸರ್ಗಿಕ ಪ್ರಪಂಚದ ಬಗ್ಗೆ ಉತ್ಸಾಹವನ್ನು ಬೆಳೆಸುವ ಪ್ರಯೋಗಗಳು ಮತ್ತು ವಿಭಜನೆಗಳನ್ನು ನಡೆಸುತ್ತದೆ.",
+            "od_0" : "ಹೊರಾಂಗಣ",
+            "od_1a" : "ತೆರೆದ ಮೈದಾನ",
+            "od_1" : "ತೆರೆದ ಮೈದಾನವು ವಿವಿಧ ಹೊರಾಂಗಣ ಚಟುವಟಿಕೆಗಳಿಗೆ ಬಹುಮುಖ ಸ್ಥಳವನ್ನು ನೀಡುತ್ತದೆ, ಕ್ರೀಡೆಗಳು, ದೈಹಿಕ ವ್ಯಾಯಾಮಗಳು ಮತ್ತು ಮನರಂಜನಾ ಅನ್ವೇಷಣೆಗಳಲ್ಲಿ ತೊಡಗಿಸಿಕೊಳ್ಳಲು ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತದೆ, ಆರೋಗ್ಯಕರ ಮತ್ತು ಸಕ್ರಿಯ ಶಾಲಾ ವಾತಾವರಣವನ್ನು ಪೋಷಿಸುತ್ತದೆ.",
+            "od_2a" : "ಬ್ಯಾಡ್ಮಿಂಟನ್ ಕೋರ್ಟ್",
+            "od_2" : "ಬ್ಯಾಡ್ಮಿಂಟನ್ ಕೋರ್ಟ್ ವಿದ್ಯಾರ್ಥಿಗಳಲ್ಲಿ ಕ್ರೀಡಾ ಮನೋಭಾವ, ತಂಡದ ಕೆಲಸ ಮತ್ತು ದೈಹಿಕ ಚಟುವಟಿಕೆಯನ್ನು ಬೆಳೆಸುವ ವೇದಿಕೆಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಅವರ ಸಮಗ್ರ ಬೆಳವಣಿಗೆಗೆ ಕೊಡುಗೆ ನೀಡುತ್ತದೆ.",
+            "od_3a" : "ಈಜುಕೊಳ",
+            "od_3" : "ಈಜುಕೊಳವು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಅಗತ್ಯವಾದ ಜೀವನ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಅಮೂಲ್ಯವಾದ ಅವಕಾಶವನ್ನು ಒದಗಿಸುತ್ತದೆ ಮತ್ತು ಶೈಕ್ಷಣಿಕ ವಾತಾವರಣದಲ್ಲಿ ದೈಹಿಕ ಸಾಮರ್ಥ್ಯ ಮತ್ತು ಮನರಂಜನೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ.",
+            "od_4a" : "ಉದ್ಯಾನವನ",
+            "od_4" : "ಉದ್ಯಾನವನವು ಪ್ರಶಾಂತ ಮತ್ತು ಹಸಿರು ಜಾಗವನ್ನು ಒದಗಿಸುತ್ತದೆ, ಅಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿಗಳು ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು, ಪ್ರಕೃತಿಯೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಬಹುದು ಮತ್ತು ವಿಶ್ರಾಂತಿಯ ಕ್ಷಣಗಳನ್ನು ಆನಂದಿಸಬಹುದು, ಇದು ಸುಸಜ್ಜಿತ ಶೈಕ್ಷಣಿಕ ಅನುಭವಕ್ಕೆ ಕೊಡುಗೆ ನೀಡುತ್ತದೆ."
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+

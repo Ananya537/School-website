@@ -1,0 +1,41 @@
+{
+    "en" : [
+        {
+            "header" : "The Government High School Department",
+            "about-header" : "About the Department",
+            "about-content" : "Our focus is on delivering quality education, increasing enrollment, addressing absenteeism, and implementing initiatives for continuous improvement in curriculum and infrastructure.",
+
+            "faculty-1" : "Kanataraju B G",
+            "faculty-1-pos" : "In-Charge Head Master",
+
+            "faculty-2" : "Suguna SM",
+            "faculty-3" : "Uma Dindoor",
+            "faculty-4" : "Shreedevi G",
+            "faculty-5" : "Manjula Bai S",
+            "faculty-6" : "Siddangangamma",
+            "faculty-7" : "Vedavati Bhat",
+            "faculty-8" : "Katyayani. S",
+            "faculty-9" : "Mr. Balaiah D"
+        }
+    ],
+
+    "kn" : [
+        {
+            "header": "ಸರ್ಕಾರದ ಹೈಸ್ಕೂಲ್ ಇಲಾಖೆ",
+            "about-header": "ಇಲಾಖೆ ಬಗ್ಗೆ",
+            "about-content" : "ನಮ್ಮ ಗಮನವು ಗುಣಮಟ್ಟದ ಶಿಕ್ಷಣವನ್ನು ನೀಡುವುದು, ದಾಖಲಾತಿಯನ್ನು ಹೆಚ್ಚಿಸುವುದು, ಗೈರುಹಾಜರಿಯನ್ನು ಪರಿಹರಿಸುವುದು ಮತ್ತು ಪಠ್ಯಕ್ರಮ ಮತ್ತು ಮೂಲಸೌಕರ್ಯದಲ್ಲಿ ನಿರಂತರ ಸುಧಾರಣೆಗಾಗಿ ಉಪಕ್ರಮಗಳನ್ನು ಅನುಷ್ಠಾನಗೊಳಿಸುವುದು.",
+
+            "faculty-1": "ಕಣತರಾಜು ಬಿ ಜಿ",
+            "faculty-1-pos": "ಅಧ್ಯಾಪಕ ಹೆಡ್ ಮಾಸ್ಟರ್ ಆರ್ಧಿಕ್ಯ",
+
+            "faculty-2": "ಸುಗುಣಾ ಎಸ್.ಎಂ",
+            "faculty-3": "ಉಮಾ ದಿಂಡೂರ್",
+            "faculty-4": "ಶ್ರೀದೇವಿ ಜಿ",
+            "faculty-5": "ಮಂಜುಳಾ ಬಾಯ್ ಎಸ್",
+            "faculty-6": "ಸಿದ್ದಾಂಗಂಗಮ್ಮ",
+            "faculty-7": "ವೇದವತಿ ಭಟ್",
+            "faculty-8": "ಕಾತ್ಯಾಯನಿ ಎಸ್",
+            "faculty-9": "ಮಿಸ್ಟರ್ ಬಾಲಯ್ಯ ಡಿ"
+        }
+    ]
+}
