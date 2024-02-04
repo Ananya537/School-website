@@ -1,267 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+<!---------------------------------HEAD SECTION------------------------------------------->
 <head>
-    <title>Government Institutions Rajanukunte</title>
-    <link rel="icon" href="images/logo.png">
 
-    <meta charset="UTF-8">
+  <!----------------  Required meta tags --------------------------->
+  <title>Government Institutions Rajanukunte</title>
+  <link rel="icon" href="images/logo.png">
+  <meta charset="UTF-8">
 
-    <!-- Google Fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Mukta&display=swap" rel="stylesheet">
+  <!------------------ Regular CSS Sylesheet ----------------------->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
 
-    <!-- Bootstrap CSS -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Regular CSS Sylesheet -->
+  <!----------------------- Google Fonts --------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Mukta&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Javascript Scripts -->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-    
-    <!-- Font Awesome -->
+  <!-- ----------------------Bootstrap CSS ------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- <link rel="icon" href="favicon (3).ico"> -->
+  <!-- --------------CDN Link to SB Forms Scripts ------------------>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <style>
-      .banner-image {
-          background-image: url('images/main1.jpg');
-          background-size: cover;
-          filter: contrast(70%) saturate(200%);
-      }
+
+  <!----------------------- Javascript ----------------------------->
+  <script src="js/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI/tZ1XaIBYQ1gx9Ke/P5o9cx5p8dz2YJgNC6E9R0=" crossorigin="anonymous"></script>
+  
+
+  <!----------------------- Font Awesome ----------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!---------------------Style of the page---------------------------->
+  <style>
+
+    .home-main-image{
+      width: 100%;
+      height: auto;
+      z-index: 1;
+      filter: contrast(90%) saturate(450%);
+    }
+
+    .banner-image {
+      background-image: url('images/image.jpg');
+      background-size: cover;
+    }
+
+    .carousel-control-prev,
+.carousel-control-next {
+    color: black !important; /* Set the arrow color to black */
+}
+
   </style>
-
 </head>
+<!--------------------------------------------------------------------------------------->
+
+
+
+<!-------------------------------------BODY SECTION-------------------------------------->
 <body>
 
-    <!-- Navigation Bar Starts -->
 
-    <section id="main-navigation-bar">
+  <!-----------------Home page header-------------------->
+  <section class="white-background">
+    <div id="header-container"></div>
+    <img src="images/image.jpg" class="home-main-image banner-image" alt="School Image">
+  </section>
+  <!----------------------------------------------------->
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-            <div class="container">
-              <img src="images/logo.png" height="66px" alt="logo">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-      
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="mx-auto"></div>
-                <ul class="navbar-nav">
-                  
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="#" data-en="Home" data-kn="ಮುಖಪುಟ">Home</a>
-                  </li>
 
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link text-white dropdown-toggle" 
-                       href="#" 
-                       data-bs-toggle="dropdown" 
-                       aria-expanded="false"
-                       data-en="About" data-kn="ಸುಮಾರು">
-                       About
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" data-en="Action" data-kn="ಸುಮಾರು"> ಕ್ರಿಯೆ </a></li>
-                        <li><a class="dropdown-item" href="#" data-en="Another action" data-kn="ಮತ್ತೊಂದು ಕ್ರಮ"> Another action</a></li>
-                        <li><a class="dropdown-item" href="#" data-en="Something else here" data-kn="ಇಲ್ಲಿ ಬೇರೆ ಏನೋ"> Something else here</a></li>
-                    </ul>
-                  </li>
+  <!------------------Home page body--------------------->
 
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link text-white dropdown-toggle" 
-                       href="#" 
-                       data-bs-toggle="dropdown" 
-                       aria-expanded="false"
-                       data-en="Academics" data-kn="ಶಿಕ್ಷಣ ತಜ್ಞರು">
-                       Academics
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" data-en="Action" data-kn="ಸುಮಾರು">Action</a></li>
-                        <li><a class="dropdown-item" href="#" data-en="Another action" data-kn="ಮತ್ತೊಂದು ಕ್ರಮ">Another action</a></li>
-                        <li><a class="dropdown-item" href="#" data-en="Something else here" data-kn="ಇಲ್ಲಿ ಬೇರೆ ಏನೋ">Something else here</a></li>
-                    </ul>
-                  </li>
+  <!----------- Introduction section ------------>
 
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="#" data-en="Admissions" data-kn="ಪ್ರವೇಶಗಳು">Admissions</a>
-                  </li>
-
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="#" data-en="Facilities" data-kn="ಸೌಲಭ್ಯಗಳು">Facilities</a>
-                  </li>
-
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="#" data-en="Departments" data-kn="ಇಲಾಖೆಗಳು">Departments</a>
-                  </li>
-
-                  <li class="nav-item mx-3">
-                    <a class="nav-link text-white" href="#" data-en="Gallery" data-kn="ಗ್ಯಾಲರಿ">Gallery</a>
-                  </li>
-
-                  <li class="nav-item mx-3">
-                    <button type="button" class="btn btn-warning" id="toggleButton" onclick="toggleLanguage()">ಕನ್ನಡ</button>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-          </nav>
-      
-          <!-- Banner Image  -->
-          <div
-            class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-          >
-          </div>
-          
-    </section>
-
-    <!-- Main Content Area -->
-
-    <div class="container my-5 d-grid gap-5">
-        <div class="p-5 border">
-          <h1 class="text-align-center"
-              data-en="Government Institutions Rajanukunte" data-kn="ಸರ್ಕಾರಿ ಸಂಸ್ಥೆಗಳು ರಾಜನಖಾನ">
-                  Government Institutions Rajanukunte
+  <section id="intro-section">
+    <div class="container d-grid ">
+      <div style="padding-top: 4rem;">
+        <div class="content-container text-align-center col-lg-9 mx-auto">
+          <h1 class="text-align-center" id="introduction-h1">
+            Government Institutions Rajanukunte
           </h1>
-          <hr class="accent-1">
-          <p  
-            class="text-align-center"
-            data-en="The Government PU College, Rajanakunte, Bangalore, Karnataka, has been a 
-            part of the educational landscape since 2020. Encompassing 3.15 acres, it 
-            is currently undergoing a transformative project supported by Manyata 
-            Embassy, with an investment of 4 crores. The college offers diverse courses 
-            in Arts, Commerce, and Science." 
-            data-kn="ಸರ್ಕಾರಿ ಪಿಯು ಕಾಲೇಜು, ರಾಜನಕುಂಟೆ, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ, ಎ
-            2020 ರಿಂದ ಶೈಕ್ಷಣಿಕ ಭೂದೃಶ್ಯದ ಭಾಗ. 3.15 ಎಕರೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ, ಇದು
-            ಮಾನ್ಯತಾ ಬೆಂಬಲಿಸುವ ಪರಿವರ್ತಕ ಯೋಜನೆಯಲ್ಲಿ ಪ್ರಸ್ತುತವಾಗಿದೆ
-            ರಾಯಭಾರ ಕಚೇರಿ, 4 ಕೋಟಿ ಹೂಡಿಕೆ. ಕಾಲೇಜು ವೈವಿಧ್ಯಮಯ ಕೋರ್ಸ್‌ಗಳನ್ನು ನೀಡುತ್ತದೆ
-            ಕಲೆ, ವಾಣಿಜ್ಯ ಮತ್ತು ವಿಜ್ಞಾನದಲ್ಲಿ." >
-            The Government PU College, Rajanakunte, Bangalore, Karnataka, has been a 
-            part of the educational landscape since 2020. Encompassing 3.15 acres, it 
-            is currently undergoing a transformative project supported by Manyata 
-            Embassy, with an investment of 4 crores. The college offers diverse courses 
-            in Arts, Commerce, and Science.
-          </p>
-
-        </div>
-        <div class="p-5 border">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-          </p>
-        </div>
-        <div class="p-5 border">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-          </p>
-        </div>
-        <div class="p-5 border">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi.
-          </p>
-        </div>
-        <div class="p-5 border">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-            natus iusto fugit id saepe neque rerum magni laudantium accusantium
-            dolorem numquam quasi. df
+          <hr class="featurette-divider2">
+          <p class="text-align-center"
+            id="introduction-p">
           </p>
         </div>
       </div>
+    </div>
+
+  </section>
+
+  <!-- Schools -->
+  
+  <section id="schools-section">
 
     
-      <script type="text/javascript">
-        var nav = document.querySelector('nav');
-        var banner = document.querySelector('.banner-image');
-        var navLinks = document.querySelectorAll('.navbar-nav a');
-        var buffer = 7;
+
+      <div class="container marketing">
         
-        window.addEventListener('scroll', function () {
-          var bannerHeight = banner.clientHeight;
-          var navbarHeight = nav.clientHeight;
-      
-          if (window.pageYOffset > bannerHeight - navbarHeight + buffer) {
-            nav.classList.add('bg-white', 'shadow');
-            nav.classList.remove('bg-transparent');
-            
-            
-            navLinks.forEach(link => {
-              link.classList.add('nav-link-black');
-            });
-          } else {
-            nav.classList.remove('bg-white', 'shadow');
-            nav.classList.add('bg-transparent');
-            
-            
-            navLinks.forEach(link => {
-              link.classList.remove('nav-link-black');
-            });
-          }
-        });
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h1 class="text-align-center" id="feature1_h1">
+            </h1>
+            <div class="text-align-center">
+              <div style="padding-bottom: 20px;">
+                <a class="animated-arrow" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <span class="the-arrow -left">
+                  <span class="shaft"></span>
+                </span>
+                <span class="main">
+                  <span class="text" id="span1_1" style="font-family: 'Helvetica Neue LT W01_41488878'; color:black; font-weight: 600;"></span>
+                  <span class="the-arrow -right">
+                    <span class="shaft"></span>
+                  </span>
+                </span>
+                </a>
+              </div>
+              
+              <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                  <hr class="accent-1" style="width: 100%;">
+                  <div class="offcanvas-summary" id="summary1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div id="carouselExample1" class="carousel slide pointer-event">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="images/Picture1.png" alt="Image 1" style="width: 100%; max-width: none;">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/Picture2.png" alt="Image 1" style="width: 100%; max-width: none;">                  
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> 
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-5">
+            <div id="carouselExample2" class="carousel slide pointer-event" style="padding-bottom:10px;">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="images/Picture3.png" alt="Image 1"  style="width: 100%; max-width: none;">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/Picture4.png" alt="Image 1"  style="width: 100%; max-width: none;">                  
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <h1 class="text-align-center" id="feature2_h1">
+            </h1>
+            <div class="text-align-center">
+              <a class="animated-arrow" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample">
+                <span class="the-arrow -left">
+                  <span class="shaft"></span>
+                </span>
+                <span class="main">
+                  <span class="text" id="span1_2" style="font-family: 'Helvetica Neue LT W01_41488878'; color:black; font-weight: 600;"></span>
+                  <span class="the-arrow -right">
+                    <span class="shaft"></span>
+                  </span>
+                </span>
+              </a>
+              <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel1"></h5>
+                  <hr class="accent-1" style="width: 100%;">
+                  <div class="offcanvas-summary" id="summary2">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h1 class="text-align-center" id="feature3_h1">
+            </h1>
+            <div class="text-align-center">
+              <div style="padding-bottom: 20px;">
 
-      </script> 
+                <a class="animated-arrow" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button" aria-controls="offcanvasExample">
+                  <span class="the-arrow -left">
+                    <span class="shaft"></span>
+                  </span>
+                  <span class="main">
+                    <span class="text" id="span1_3" style="font-family: 'Helvetica Neue LT W01_41488878'; color:black; font-weight: 600;"></span>
+                    <span class="the-arrow -right">
+                      <span class="shaft"></span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              
+              <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel2"></h5>
+                  <hr class="accent-1" style="width: 100%;">
+                  <div class="offcanvas-summary" id="summary3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div id="carouselExample3" class="carousel slide pointer-event">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="images/Picture5.png" alt="Image 1" style="width: 100%; max-width: none;">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/Picture6.png" alt="Image 1" style="width: 100%; max-width: none;">                  
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> 
+        </div>
+    
+        <hr class="featurette-divider1">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div>
+
+    </section>
+    
+    
+  
+  </section>
 
 
-<!-- Js for language change -->
+  <!-- Profiles -->
+
+  <section id="teachers">
+
+    <p class="teach-p" id="teach-p"></p>
+
+    <img loading="lazy" src="https://d3rsva8zdn1qpf.cloudfront.net/sites/school76/files/2022-06/beige-diamond-lines-11.png" width="497" height="19" alt="Beige-diamond-lines-11" class="img-fluid">
+
+      <div class="album py-4">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div>
+                <img src="images/Picture7.jpg" width="100%" height="225"></img>
+                <div class="card-body">
+                  <hr class="featurette-divider2">
+                  <p class="pcards71" id="p-years1"></p>
+                  <h4 class="h4cards71" id="p-school1"></h4>
+                  <div class="text-align-center">
+                    <a class="animated-arrow" href="pages/departments_primary.html" role="button" aria-controls="offcanvasExample">
+                      <span class="the-arrow -left">
+                        <span class="shaft"></span>
+                      </span>
+                      <span class="main">
+                        <span class="text" id="span2_1" style="font-family: 'Helvetica Neue LT W01_41488878'; color:black; font-weight: 600;"></span>
+                        <span class="the-arrow -right">
+                          <span class="shaft"></span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <img src="images/Picture8.jpg" width="100%" height="225"></img>
+                <div class="card-body">
+                  <hr class="featurette-divider2">
+                  <p class="pcards71" id="p-years2"></p>
+                  <h4 class="h4cards71" id="p-school2"></h4>
+                  <div class="text-align-center">
+                    <a class="animated-arrow" href="pages/departments_high.html" role="button" aria-controls="offcanvasExample">
+                      <span class="the-arrow -left">
+                        <span class="shaft"></span>
+                      </span>
+                      <span class="main">
+                        <span class="text" id="span2_2" style="font-family: 'Helvetica Neue LT W01_41488878'; color:black; font-weight: 600;"></span>
+                        <span class="the-arrow -right">
+                          <span class="shaft"></span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <img src="images/Picture9.jpg" width="100%" height="225"></img>
+                <div class="card-body">
+                  <hr class="featurette-divider2">
+                  <p class="pcards71" id="p-years3"></p>
+                  <h4 class="h4cards71" id="p-school3"></h4>
+                  <div class="text-align-center">
+                    <a class="animated-arrow" href="pages/departments_pu.html" role="button" aria-controls="offcanvasExample">
+                      <span class="the-arrow -left">
+                        <span class="shaft"></span>
+                      </span>
+                      <span class="main">
+                        <span class="text" id="span2_3" style="font-family: 'Helvetica Neue LT W01_41488878'; color:black; font-weight: 600;"></span>
+                        <span class="the-arrow -right">
+                          <span class="shaft"></span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img loading="lazy" src="https://d3rsva8zdn1qpf.cloudfront.net/sites/school76/files/2022-06/beige-diamond-lines-11.png" width="497" height="19" alt="Beige-diamond-lines-11" class="img-fluid1">
+
+</section>
+
+<div id="footer-container"></div>
+
+  </body> 
+<!--------------------------------------------------------------------------------------->
+
+
 <script>
-  const contentElements = document.querySelectorAll('[data-en], [data-kn]');
-  const toggleButton = document.getElementById('toggleButton');
-  let currentLanguage = 0; // 0 for English, 1 for Kannada
-
-  function toggleLanguage() {
-      currentLanguage = 1 - currentLanguage; // Toggle between 0 and 1
-      updateLanguage();
-  }
-
-  function updateLanguage() {
-      const key = currentLanguage === 0 ? 'en' : 'kn';
-
-      contentElements.forEach(element => {
-          element.textContent = element.getAttribute(`data-${key}`);
+  fetch('include/footer.html')
+         .then(response => response.text())
+         .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+         });
+   </script>
+    
+  
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      var headerContainer = document.getElementById('header-container');
+  
+      // Load the header HTML using fetch or another method
+      fetch('include/header.html')
+          .then(response => response.text())
+          .then(html => {
+              headerContainer.innerHTML = html;
+  
+              // Load the script for the header behavior
+              
+              
+              var headerScript = document.createElement('script');
+              headerScript.src = 'js/header.js';
+              headerScript.onload = function () {
+              // Call the function from the external script
+              if (typeof initializeHeader === 'function') {
+                  initializeHeader_transparent();
+              } 
+              else {
+                  console.error('initializeHeader function is not defined.');
+              }
+          };
+          headerContainer.appendChild(headerScript);
+          window.currentPage = 'home';
+          toggleLanguage(currentPage)
+          });
       });
-
-      const languageText = currentLanguage === 0 ? 'ಕನ್ನಡ' : 'English' ;
-      toggleButton.textContent = `${languageText}`;
-  }
-</script>
-
-
-<!-- CDN Link to SB Forms Scripts -->
-<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-</body>
+      
+  </script>
+  
+  
+  <!-- CDN Link to SB Forms Scripts -->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  
 </html>
