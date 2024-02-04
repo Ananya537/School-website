@@ -1,74 +1,342 @@
-.navbar {
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-}
 
-.navbar-nav a {
-    font-weight: bold;
-    font-size: 18px; 
-}
+/* Home page */
+.home-main-image{
+        width: 100%;
+        height: auto;
+        z-index: 1;
+      }
 
-#main-navigation-bar img {
-    margin-top: 10px; 
-    margin-bottom: 10px;
-}
 
-.nav-link-black {
-    color: black !important;
-}
+/* ----------------------------------- Introduction Page ----------------------------------- */
 
-.dropdown-menu a:hover {
-    color: maroon !important; 
-}
-
-.dropdown-menu a:active {
-    background-color: rgb(233, 227, 177) ;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    font-size: 2rem;
-    padding: 0 10px;
-    margin: 0 20px;
-    cursor: pointer;
-    position: relative;
-}
-
-nav ul li:after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-nav ul li:hover::after{
-    width:100%;
+#intro-section h1 {
+  color: #193059;
+  font-weight: 400;
+  font-size: 52px !important;
+  line-height: 1.25 !important;
+  font-family: 'Lora',Helvetica,arial,serif;
+  margin: 3.2px 0 32px 0;
 }
 
 hr {
-    outline: 1px solid #ff063f!important;
+  height: 0;
+  margin: 1.25rem 0 1.1875rem;
+  border: solid #be202e;
+  border-width: 1px 0 0;
+  background: #be202e;
+  opacity: 1;
 }
 
-hr.accent-1 {
-    border-color: #be202e;
+hr {
+  outline: 1px solid #ff063f!important;
 }
+
+/* hr.accent-1 {
+  color: #be202e;
+} */
 
 .text-align-center{
-    text-align: center;
+  text-align: center;
 }
 
 h1.text-align-center{
-    color: #193059;
-    font-size: 52px;
-    font-family: 'Lora',Helvetica,arial,serif;
+  color: #193059;
+  font-weight: 400;
+  font-size: 3rem !important;
+  line-height: 1.25 !important;
+  font-family: 'Lora',Helvetica,arial,serif;
+  margin: 3.2px 0 32px 0;
 }
 
 p.text-align-center{
-    color: #193059;
+  color: #193059;
+  font-family: 'Open Sans',Helvetica,arial,sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
 
+
+
+
+.b-header {
+  font-family: 'Lora',Helvetica,arial,serif;
+  color: #193059;
+  font-weight: 560;
+  font-size: 2.5rem;
+}
+
+body {
+  font-family: 'Open Sans',Helvetica,arial,sans-serif;;
+}
+/* ----------------------------------- Carousel Page ----------------------------------- */
+
+
+
+.featurette-divider{
+margin: 5rem 0;
+}
+
+.featurette-divider1{
+  margin: 5rem 0 2rem 0;
+  }
+
+.featurette-divider2{
+  height: 0;
+  border: solid #193059;
+  border-width: 1px 0 0;
+  background: #193059;
+  opacity: 1;
+  margin: 2rem 0 1rem 0;
+  }
+
+/* Variables */
+:root {
+  --black: #4c4c4c;
+  --white: #eaeaea;
+  --gray: #808080;
+  --text-arrow-space: 16px;
+  --shaft-width: 1px;
+  --newshaft-width: 64px;
+  --shaft-thickness: 1px;
+  --arrow-head-width: 8px;
+  --arrow-head-thickness: var(--shaft-thickness);
+}
+
+/* Base */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container71 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+ul.special-ul {
+  li.special-li {
+    margin: 0 0 24px;
+  }
+}
+
+/* The Arrow */
+.the-arrow {
+  width: var(--shaft-width);
+  transition: all 0.2s;
+}
+
+.the-arrow.-left {
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
+.the-arrow.-left > .shaft {
+  width: 0;
+  background-color: var(--black);
+}
+
+.the-arrow.-left > .shaft:before,
+.the-arrow.-left > .shaft:after {
+  width: 0;
+  background-color: var(--black);
+}
+
+.the-arrow.-left > .shaft:before {
+  transform: rotate(0);
+}
+
+.the-arrow.-left > .shaft:after {
+  transform: rotate(0);
+}
+
+.the-arrow.-right {
+  top: 3px;
+}
+
+.the-arrow.-right > .shaft {
+  width: var(--shaft-width);
+  transition-delay: 0.2s;
+}
+
+.the-arrow.-right > .shaft:before,
+.the-arrow.-right > .shaft:after {
+  width: var(--arrow-head-width);
+  transition-delay: 0.3s;
+  transition: all 0.5s;
+}
+
+.the-arrow.-right > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.the-arrow.-right > .shaft:after {
+  transform: rotate(-40deg);
+}
+
+.the-arrow > .shaft {
+  background-color: var(--black);
+  display: block;
+  height: var(--shaft-thickness);
+  position: relative;
+  transition: all 0.2s;
+  transition-delay: 0;
+  will-change: transform;
+}
+
+.the-arrow > .shaft:before,
+.the-arrow > .shaft:after {
+  background-color: var(--black);
+  content: '';
+  display: block;
+  height: var(--arrow-head-thickness);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.2s;
+  transition-delay: 0;
+}
+
+.the-arrow > .shaft:before {
+  transform-origin: top right;
+}
+
+.the-arrow > .shaft:after {
+  transform-origin: bottom right;
+}
+
+/* Animated Arrow Button */
+.animated-arrow {
+  display: inline-block;
+  color: var(--black);
+  font-size: 1.25em;
+  font-style: italic;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.animated-arrow:hover {
+  color: var(--gray);
+}
+
+.animated-arrow:hover > .the-arrow.-left > .shaft {
+  width: var(--newshaft-width);
+  transition-delay: 0.1s;
+  background-color: var(--gray);
+}
+
+.animated-arrow:hover > .main {
+  transform: translateX(calc(var(--shaft-width) + var(--text-arrow-space)));
+  transform: translateX(calc(var(--newshaft-width) + var(--text-arrow-space)));
+}
+
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft {
+  width: 0;
+  transform: translateX(200%);
+  transition-delay: 0;
+}
+
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:before,
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+  width: 0;
+  transition-delay: 0;
+  transition: all 0.1s;
+}
+
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:before {
+  transform: rotate(0);
+}
+
+.animated-arrow:hover > .main > .the-arrow.-right > .shaft:after {
+  transform: rotate(0);
+}
+
+.animated-arrow > .main {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.animated-arrow > .main > .text {
+  margin: 0 var(--text-arrow-space) 0 0;
+  line-height: 1;
+}
+
+.animated-arrow > .main > .the-arrow {
+  position: relative;
+}
+
+.offcanvas-title{
+  color: #193059;
+  font-weight: 400;
+  font-size: 32px !important;
+  line-height: 1.25 !important;
+  font-family: 'Lora',Helvetica,arial,serif;
+  margin: 3.2px 0 32px 0;
+}
+
+.offcanvas-summary{
+  color: #193059;
+  font-family: 'Open Sans',Helvetica,arial,sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+/* 
+SCHOOL CARDS */
+
+
+.teach-p{
+  font-family: 'Lora',Helvetica,arial,serif;
+  color: #193059;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+.pcards71{
+font-family: 'Lora',Helvetica,arial,serif;
+color: #be202e;
+text-align: center;
+font-size: 1rem;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+.h4cards71{
+font-family: 'Lora',Helvetica,arial,serif;
+color: #193059;
+text-align: center;
+font-size: 28px !important;
+line-height: 1.25 !important;
+letter-spacing: 1px !important;
+margin-bottom: .6em;
+margin-top: 10px;
+}
+
+.img-fluid {
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 1rem;
+max-width: 100%;
+height: auto;
+}
+
+.img-fluid1 {
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 2rem;
+max-width: 100%;
+height: auto;
+}
